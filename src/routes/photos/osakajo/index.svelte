@@ -20,10 +20,10 @@
   <title>Imperial Garden: Osakajo</title>
 </svelte:head>
 <article class="max-w-xl mx-auto">
-<BlogHeader>
+<Blogheader>
   <span slot="title"> Imperial Garden </span>
   <span slot="location">Osakajo</span>
-</BlogHeader>
+</Blogheader>
 <img src='/photos/osakajo/osakajo-1.webp' alt='a pristine view of one of the few lakes from inside Osaka Castle, we see two traditional Japanese buildings in the background' class='max-w-screen px-2'/>
 <div class="carousel p-2 space-x-2 carousel-center">
 {#each osaka as {src, alt}}
