@@ -129,7 +129,7 @@
       <h2 class="mb-4 text-2xl font-black tracking-tight md:text-4xl text-gray-50" style="opacity: 1; transform: translateY(0px);">
       Content Creation Services, Tailored to your Brand
       </h2>
-      <p class="mt-4 text-xl mr-1 text-gray-50 text-opacity-70">
+      <p class="mt-4 mr-1 text-xl text-gray-50 text-opacity-70">
       Start conversations with content that's uniquely yours. Learn what makes the best creators stand out, giving your audience the experience they deserve.
       </p>
        <div class="flex mt-8">
@@ -233,7 +233,13 @@
     >
       Subscribe to our newsletter below!
     </p>
-    <form novalidate name="subscription" method="POST" data-netlify="true" class="container flex items-center justify-center mx-auto my-4 w-7xl">
+    <form novalidate name="subscription" class="container flex items-center justify-center mx-auto my-4 w-7xl" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="apikey" value="e285ff6e-f7df-419d-b866-9aca64329628"/>
+      <input type="hidden" name="ccemail" value="theo@whatsorcery.com"/>
+      <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+      <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+      <input type="hidden" name="recaptcha_response" id="recaptchaResponse"/>
+      <input type="checkbox" name="botcheck" id="" class="hidden" />
       <div class="flex flex-col items-end justify-end space-x-2 space-y-4 text-left sm:flex-row max-h-max">
       <label for="name">
         Name

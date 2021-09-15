@@ -7,7 +7,13 @@
     Like what you see?<br /><span class="text-lg md:text-2xl"> Book a free consultation today!</span>
   </h1>
 <section class="p-6">
-	<form novalidate name="contact" method="POST" data-netlify="true" class="container w-full max-w-xl p-8 mx-auto space-y-6 rounded-md shadow-lg filter drop-shadow bg-coolGray-50 ng-untouched ng-pristine ng-valid">
+	<form novalidate name="contact" class="container w-full max-w-xl p-8 mx-auto space-y-6 rounded-md shadow-lg filter drop-shadow bg-coolGray-50 ng-untouched ng-pristine ng-valid" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="apikey" value="e285ff6e-f7df-419d-b866-9aca64329628"/>
+      <input type="hidden" name="ccemail" value="theo@whatsorcery.com"/>
+      <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+      <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+      <input type="hidden" name="recaptcha_response" id="recaptchaResponse"/>
+      <input type="checkbox" name="botcheck" id="" class="hidden" />
 		<h2 class="w-full text-3xl font-bold leading-tight">Contact us</h2>
 		<div>
 			<label for="name" class="block mb-1 ml-1">Name</label>
