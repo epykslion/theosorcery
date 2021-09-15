@@ -1,5 +1,5 @@
 <script>
-  import BlogHeader from '$ui/components/blogheader/BlogHeader.svelte';
+  import Blogheader from '$ui/components/blogheader/Blogheader.svelte';
   let osaka = [
     {
         src: '/photos/osakajo/osakajo-2.webp',
