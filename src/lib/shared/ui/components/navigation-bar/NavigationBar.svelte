@@ -1,5 +1,5 @@
 
-<nav class="fixed z-50 w-screen h-16 shadow-md bg-blueGray-50">
+<nav class="fixed z-50 w-screen h-12 shadow-md bg-blueGray-50">
   <div class="flex items-center justify-center h-full max-w-screen-lg p-2 sm:mx-auto">
     <a sveltekit:prefetch href="/" class='font-extralight text-left tracking-widest leading-4 text-[0.9rem] w-1/6 uppercase inline-block'>Theo <br/><span class="text-[0.975rem]">Niko</span></a>
 <div class="inline-flex 5/6 flex-grow items-center justify-center sm:w-1/2 mx-1 space-x-4 text-sm md:space-x-8 lg:text-lg">
