@@ -1,22 +1,25 @@
 
-<nav class="fixed z-50 w-screen shadow-md bg-coolGray-50">
-  <div class="flex items-center justify-between max-w-screen-lg p-2 mx-auto">
+<nav class="fixed z-50 w-screen h-16 shadow-md bg-blueGray-50">
+  <div class="flex items-center justify-center h-full max-w-screen-lg p-2 mx-auto my-auto">
     <a sveltekit:prefetch href="/" class='font-extralight text-center tracking-widest leading-4 text-[0.9rem] w-1/6 uppercase inline-block'>Theo <br/><span class="text-[0.975rem]">Niko</span></a>
-<div class="inline-flex items-center w-1/2 mx-2 text-sm lg:text-base justify-evenly">
-      <a sveltekit:prefetch href="/" class="mx-[0.2rem] sm:mx-6">
+<div class="inline-flex items-center justify-center w-1/2 mx-1 space-x-4 text-sm md:space-x-8 lg:text-lg">
+      <a sveltekit:prefetch href="/" class="">
               Home
             </a>
-      <a sveltekit:prefetch href="/work" class="mx-[0.2rem] lg:mx-2 sm:mx-6">
-              Work
+      <a sveltekit:prefetch href="/portfolio" class="">
+              Our Work
             </a>
-      <a sveltekit:prefetch href="/about" class="mx-[0.2rem] lg:mx-2 sm:mx-6">
+      <a sveltekit:prefetch href="/services" class="">
+              Services
+      </a>
+      <a sveltekit:prefetch href="/about" class="">
               About
             </a>
-      <a sveltekit:prefetch href="/contact" class="mx-[0.2rem] lg:mx-2 sm:mx-6">
+      <a sveltekit:prefetch href="/contact" class="">
               Contact
             </a>
   </div>
-  <div class="inline-flex items-center justify-around w-1/5 scale-110 sm:scale-[115%] lg:justify-between lg:w-[15%] lg:scale-150">
+  <div class="inline-flex items-center justify-around w-1/5 scale-110 sm:scale-[115%] lg:justify-around lg:w-[10%] lg:scale-150">
   <a rel='external' href="https://twitter.com/theonikomao">
       <i rel='preload' class="inline-block text-gray-600 fab fa-twitter hover:text-gray-400"></i>
     </a>
