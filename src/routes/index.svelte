@@ -162,7 +162,7 @@
       Code or No-Code, create stunning user experiences, loaded with all that SEO-goodness.
       </p>
        <div class="flex mt-12">
-        <a href="/web" type="button" class="inline-flex items-center px-6 py-3 my-2 text-lg font-medium text-center transition duration-300 ease-in-out transform border border-transparent rounded-lg text-gray-50 bg-emerald-600 lg:px-12 hover:bg-emerald-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blueGray-800">
+        <a href="/services" type="button" class="inline-flex items-center px-6 py-3 my-2 text-lg font-medium text-center transition duration-300 ease-in-out transform border border-transparent rounded-lg text-gray-50 bg-emerald-600 lg:px-12 hover:bg-emerald-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blueGray-800">
           Find out how
           <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-3 -mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>

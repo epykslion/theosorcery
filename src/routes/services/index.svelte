@@ -2,8 +2,8 @@
   <section class="text-blueGray-100 bg-blueGray-700 ">
     <div class="container flex flex-col px-5 py-24 mx-auto lg:items-center">
       <div class="flex flex-col w-full mb-12 text-left lg:text-center">
-        <p class="mb-4 text-sm font-semibold tracking-widest">Your website, but better</p>
-        <h1 class="mb-6 text-2xl font-semibold tracking-tighter sm:text-5xl title-font">Rapidly built <br class="md:hidden">with JAMStack Technology</h1>
+        <p class="mb-4 text-lg font-semibold tracking-widest">Your website, but better</p>
+        <h1 class="mb-6 text-2xl tracking-tighter sm:text-5xl title-font">Rapidly built <br class="md:hidden">with JAMStack Technology</h1>
         <p class="mx-auto text-lg font-medium leading-relaxed md:text-xl lg:w-2/3">Solidify your brand presence with a website built for performance</p>
       </div>
       <div class="flex justify-left lg:justify-center ">
